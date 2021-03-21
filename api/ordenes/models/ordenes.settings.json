@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ordenes",
+  "info": {
+    "name": "ordenes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "item": {
+      "type": "json"
+    }
+  }
+}

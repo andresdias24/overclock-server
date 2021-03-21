@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/suscriptores",
+      "handler": "suscriptores.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/suscriptores/count",
+      "handler": "suscriptores.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/suscriptores/:id",
+      "handler": "suscriptores.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/suscriptores",
+      "handler": "suscriptores.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/suscriptores/:id",
+      "handler": "suscriptores.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/suscriptores/:id",
+      "handler": "suscriptores.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
